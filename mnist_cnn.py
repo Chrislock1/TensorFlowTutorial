@@ -12,6 +12,7 @@ from tensorflow.contrib.learn.python.learn.estimators import model_fn as model_f
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
+
 def main(*argv):
     mnist = learn.datasets.load_dataset("mnist")
     train_data = mnist.train.images # Returns np.array
