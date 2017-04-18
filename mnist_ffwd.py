@@ -15,7 +15,7 @@ from tensorflow.examples.tutorials.mnist import input_data
 FLAGS = None
 
 
-def train(*argv):
+def train():
     # Downloading dataset
     mnist = input_data.read_data_sets(FLAGS.data_dir, one_hot=True, fake_data=FLAGS.fake_data)
 
