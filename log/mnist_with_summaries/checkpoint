@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:/Users/fredr/PycharmProjects/TensorFlowTutorial/log/mnist_with_summaries/model.ckpt"
+all_model_checkpoint_paths: "C:/Users/fredr/PycharmProjects/TensorFlowTutorial/log/mnist_with_summaries/model.ckpt"
